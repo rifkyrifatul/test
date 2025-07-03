@@ -17,14 +17,14 @@ class CustomerSeeder extends Seeder
             'customer_name' => 'Budi Santoso',
             'customer_address' => 'Jakarta',
             'gender' => 'Pria',
-            'birth_date' => '1995-02-10'
+            'birthday_date' => '1995-02-10'
         ]);
 
         Customer::create([
             'customer_name' => 'Siti Aminah',
             'customer_address' => 'Surabaya',
             'gender' => 'Wanita',
-            'birth_date' => '1998-05-20'
+            'birthday_date' => '1998-05-20'
         ]);
     }
 }

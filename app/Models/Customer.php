@@ -18,14 +18,14 @@ class Customer extends Model
         'customer_name',
         'customer_address',
         'gender',
-        'birth_date',
+        'birthday_date',
     ];
 
     /**
      * Casting tipe data untuk atribut.
      */
     protected $casts = [
-        'birth_date' => 'date',
+        'birthday_date' => 'date',
     ];
 
     /**
